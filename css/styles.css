@@ -1,0 +1,150 @@
+/* font-family: 'Raleway', sans-serif; */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+/* header */
+.logo-header {
+  color: #2e2f42;
+}
+
+.logotype {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  /* font-style: normal; */
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.list-nav {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.header .link-nav {
+  color: #2e2f42;
+  font-weight: 500;
+}
+
+.addres {
+  font-style: normal;
+}
+
+.header .link-addr {
+  color: #434455;
+  font-weight: 400;
+}
+
+.logotype:hover,
+.logotype:focus,
+.link-nav:hover,
+.link-nav:focus,
+.link-addr:hover,
+.link-addr:focus {
+  color: #404bbf;
+}
+
+/* HERO SECTION */
+.hero-section {
+  background: #2e2f42;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  text-align: center;
+}
+
+.button {
+  font-family: inherit;
+  background: #4d5ae5;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background: #404bbf;
+}
+
+/* section-2 */
+.list-item-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.list-item-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* section-3 */
+.section-team {
+  background: #f4f4fd;
+}
+
+.list-team {
+  background-color: #ffffff;
+}
+
+.section-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* section-4 */
+
+/* footer */
+.footer {
+  background: #2e2f42;
+}
+.logofooter {
+  color: #f4f4fd;
+}
+
+.text-footer {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
